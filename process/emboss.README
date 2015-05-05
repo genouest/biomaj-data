@@ -1,0 +1,26 @@
+EMBOSS DBI post-processes
+
+Thos package contains post-process wrappers for:
+- dbiflat
+- dbiblast
+- dbifasta
+- dbigcg
+
+Each post-process is called with some arguments specified in script.
+This looks like:
+# Args:
+# seqtype: N (nucleic), P (proteic), ? unknown
+# subdirectory: blast
+# subdirectory destination: XXX -> emboss_XXX
+
+Emboss fields are not customizable per script, but scripts are easilly customizable to add required fields.
+
+Wrappers call emboss dbi scripts to create required index.
+
+In emboss.default, database can be defined this way:
+
+DB biomajalu [ type: P dir: /var/lib/biomaj/ncbi/alu/current/fasta
+   indexdir: /var/lib/biomaj/ncbi/alu/current/emboss_fasta
+   method: emblcd format: fasta release: current
+   fields: "des"
+   comment: "EMBL new in native format with EMBL CD-ROM index"]
