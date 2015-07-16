@@ -1,4 +1,4 @@
-#!/local/perl/5.10.0/bin/perl
+#!/usr/bin/perl
 
 # Requires Net::Twitter perl library.
 # Update TOBEUPDATED with your twitter account app data 
