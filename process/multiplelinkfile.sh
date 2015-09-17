@@ -1,3 +1,4 @@
+#!/bin/bash
 # author : ofilangi
 # date   : 27/11/2007
 #
