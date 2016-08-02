@@ -506,7 +506,7 @@ sub executeBatch
 	if ($system ne "" && $system ne "sh")
 	{
 		$system = uc($system);
-		&ProcessBiomajLib::Error("La commande pour --execute pbs n'est pas définit dans unix_command_system.cfg ( EXECUTE_BATCH_CMD_$system=? )!!\n") if ( !exists($H_CMD{"EXECUTE_BATCH_CMD_$system"}) );
+		&ProcessBiomajLib::Error("The command for --execute pbs is not defined in unix_command_system.cfg ( EXECUTE_BATCH_CMD_$system=? )!!\n") if ( !exists($H_CMD{"EXECUTE_BATCH_CMD_$system"}) );
 	
 		my $execute_cmd = $H_CMD{"EXECUTE_BATCH_CMD_$system"};
 		my $execute_option = ( exists($H_CMD{"EXECUTE_BATCH_OPTION_$system$option"}) ) ? $H_CMD{"EXECUTE_BATCH_OPTION_$system$option"} : "";

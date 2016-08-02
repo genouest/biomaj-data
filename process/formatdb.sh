@@ -174,7 +174,7 @@ if ( test $formatdbResult -ne 0 ) then
   exit 1
 fi
 
-echo "##BIOMAJ#blast###$2$nameB"
+echo "##BIOMAJ#blast###$2/$nameB"
 
 # Delete temp files and links
 #-------------------------------------------------------------
