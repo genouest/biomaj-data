@@ -31,7 +31,7 @@ print("Will try to install "+args.name+" with packages in "+args.listfile)
 
 if os.path.exists(dest_env):
     print("Destination env file '%s' already exist" % dest_env, file=sys.stderr)
-    sys.exit(1)
+    return("LOG : Destination env file '%s' already exist" % dest_env, file=sys.stderr)
 
 if not os.path.exists(args.listfile):
     print("Package list file '%s' unreadable" % args.listfile, file=sys.stderr)
