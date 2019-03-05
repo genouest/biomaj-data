@@ -34,7 +34,7 @@ workdir="$datadir/$dirversion/future_release/$relWorkDir"
 outputPathAbs="$datadir/$dirversion/future_release/$outputPath"
 
 rm -rf $workdir;
-mkdir -p $workdir ;
+mkdir -p $outputPath ;
 
 if ( test $? -ne 0 ) then
     echo "Cannot create $workdir." 1>&2 ;
