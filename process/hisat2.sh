@@ -4,15 +4,15 @@
 
 # How to call it in a bank.properties file ? 
 #
-# star.name=star
-# star.desc=Build star index
-# star.type=index
-# star.exe=star.sh
-# star.args="fasta/*.fasta" "star/all.star name_index"
-# star.cluster=false
+# hisat2.name=hisat2
+# hisat2.desc=Build hisat2 index
+# hisat2.type=index
+# hisat2.exe=star.sh
+# hisat2.args="fasta/*.fasta" "hisat2/all.star name_index"
+# hisat2.cluster=false
 
 
-if (test $# -ne 2) then
+if (test $# -ne 3) then
     echo "arguments:" 1>&2
     echo "1: input files" 1>&2
     echo "2: write index data to files with this dir/basename" 1>&2
