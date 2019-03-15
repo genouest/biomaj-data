@@ -1,0 +1,5 @@
+__default: yourgalaxyserver
+
+yourgalaxyserver:
+    url: "https://example.org/"
+    apikey: "xxxxxxxxxxxxxxxxxxxxxxx"

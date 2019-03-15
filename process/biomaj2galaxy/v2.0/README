@@ -1,0 +1,14 @@
+This is a typical example of how to install and use biomaj2galaxy.
+You'll need to adapt the paths if it's not installed in /db/biomaj/ on your server
+
+You'll also need to create a virtualenv with biomaj2galaxy installed in it:
+
+```
+virtualenv /db/biomaj/biomaj-process/biomaj2galaxy/v2.0/bm2g_venv
+. /db/biomaj/biomaj-process/biomaj2galaxy/v2.0/bm2g_venv/bin/activate
+pip install biomaj2galaxy
+```
+
+Add your url and apikey in bm2g.yml
+
+Then you can use /db/biomaj/biomaj-process/biomaj2galaxy/v2.0/bm2g.sh in any db_properties files
