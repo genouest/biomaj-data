@@ -1,0 +1,1 @@
+recursive-include biomaj_data/db_properties *.properties

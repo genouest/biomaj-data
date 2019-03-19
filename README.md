@@ -1,5 +1,7 @@
 This repository contains sample db properties and post processes for BioMAJ.
 
+Bank properties examples are under biomaj_data/db_properties directory
+
 
 If you want to know how to write :
 
