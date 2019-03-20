@@ -1,4 +1,9 @@
 # Biomaj data templates
 
-# 3.1.0
- * New package
+## 3.2.0
+
+* Add flybase banks
+
+## 3.1.0
+
+* New package

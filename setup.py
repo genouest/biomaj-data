@@ -20,7 +20,7 @@ config = {
     'author': 'Olivier Sallou',
     'url': 'https://github.com/genouest/biomaj-data',
     'author_email': 'olivier.sallou@irisa.fr',
-    'version': '3.1.0',
+    'version': '3.1.1',
      'classifiers': [
         # How mature is this project? Common values are
         #   3 - Alpha
