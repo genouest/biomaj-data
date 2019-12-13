@@ -178,7 +178,7 @@ fi
 for fileIndexVirtuel in $lsAl 
 do
   echo "Found alias file: [$fileIndexVirtuel]";
-  listIndex=`more $fileIndexVirtuel | grep DBLIST`;
+  listIndex=`cat $fileIndexVirtuel | grep DBLIST`;
   listFile2="";
   for f in $listIndex
   do
