@@ -1,5 +1,9 @@
 # Biomaj data templates
 
+## 3.1.2
+
+* Fix alu files (removed from remote server), use different files
+
 ## 3.1.1
 
 * Add flybase banks
