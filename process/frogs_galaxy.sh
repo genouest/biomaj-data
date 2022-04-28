@@ -9,7 +9,7 @@ cd "$WORKDIR/flat/HVL/ITS/"
 for i in *; do
     for j in $i/*fasta; do
         [ -f "$j" ] || continue
-        B2G_OPTS="$B2G_OPTS HVL_db:"`pwd`/$j":"`basename $j .fasta`
+        B2G_OPTS="$B2G_OPTS frogs_HVL_db:"`pwd`/$j":"`basename $j .fasta`
     done
 done
 
@@ -19,7 +19,7 @@ cd "$WORKDIR/flat/contaminants/"
 
 for i in *fa; do
     [ -f "$i" ] || continue
-    B2G_OPTS="$B2G_OPTS phiX_db:"`pwd`/$i":"`basename $i .fa`
+    B2G_OPTS="$B2G_OPTS frogs_contaminant_db:"`pwd`/$i":"`basename $i .fa`
 done
 
 cd "$WORKDIR"

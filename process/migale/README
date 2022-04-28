@@ -1,0 +1,28 @@
+
+				BioMaJ Project
+
+			MIGALE postprocess development
+		Main contributor: ludovic.legrand@jouy.inra.fr
+		Others contacts : veronique.martin@jouy.inra.fr
+				  christophe.caron@jouy.inra.fr
+
+migale-template.cfg	Rename this file to migale.cfg and modify it before to use perl script
+
+build_blast.pl		Build blast index from fasta files with cluster/drma support
+build_emboss.pl		Build emboss index from flat files with cluster/drma support
+build_repeatmasker.pl	Build repeatmasker files index from fasta files with cluster/drma support
+build_cdhit.pl		Compute non-redundant db from fasta database with cluster/drma support
+build_fasta.pl		Convert flat files to fasta files with cluster/drma support
+
+build_gcg.pl		Build gcgblast index from flat files
+build_gcgblast.pl	Build gcgblast index from flat files
+
+
+build_srs.pl		Build srs index from flat files
+
+make_link.pl		Link files
+
+MigaleBiomaj.pm		Perl module used by all scripts
+
+
+
